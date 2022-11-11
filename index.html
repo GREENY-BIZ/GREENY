@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GREENY, 그리니</title>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="GREENY" />
+    <meta property="og:title" content="GREENY" />
+    <meta
+      property="og:description"
+      content="GREENY 공식 홈페이지에 오신것을 환영합니다. GREENY의 최신 정보부터 인기이벤트들을 확인하실 수 있습니다."
+    />
+    <meta property="og:image" content="./images/header_logo/header_logo.png" />
+    <!-- <meta property="og:url" content="https://" /> -->
+
+    <link rel="icon" href="./greeny.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/body.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="./js/main.js"></script>
+    <script defer src="./js/body.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <ul class="header_menu">
+        <li class="menu_list"><a href="/signin">개인 로그인</a></li>
+        <!--<li class="menu_list"><a href="/signin">법인 로그인</a></li>
+        <li class="menu_list"><a href="javascript:void(0)">회원가입</a></li>
+        <li class="menu_list"><a href="javascript:void(0)">월드와이드</a></li>
+        <li class="menu_list"><a href="javascript:void(0)">LANGUAGE</a></li>
+        <li class="menu_list"><a href="javascript:void(0)">채용</a></li>-->
+        <li class="menu_list"><a class="search" href="javascript:void(0)">검색</a></li>
+        <li class="menu_search">
+          <div class="form">
+          <input type="text" placeholder="검색어를 입력해주세요."/>
+          <button></button>
+          </div>
+        </li>
+      </ul>
+      <div class="header_list">
+        <a href="/">
+          <img
+            class="header_logo"
+            src="./images/header_logo/header_logo.png"
+            alt="logo"
+          />
+        </a>
+        <ul>
+          <li><a href="javascript:void(0)" style="font-family: 'ONE-Mobile-POP';">브랜드소개</a></li>
+          <li><a href="javascript:void(0)" style="font-family: 'ONE-Mobile-POP';">활동</a></li>
+          <li><a href="javascript:void(0)" style="font-family: 'ONE-Mobile-POP';">새소식</a></li>
+          <li><a href="javascript:void(0)" style="font-family: 'ONE-Mobile-POP';">마이페이지</a></li>
+          <li><a href="javascript:void(0)" style="font-family: 'ONE-Mobile-POP';">고객지원</a></li>
+          <!--<li><a href="javascript:void(0)">회사소개</a></li>-->
+        </ul>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/banners/banner1.png"/>
+            <div class="swiper__button">
+              <button>참여하기</button>
+              <button>자세히 보기</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/banners/banner2.png"/>
+            <div class="swiper__button">
+              <button>참여하기</button>
+              <button>자세히 보기</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/banners/banner3.png">
+            <div class="swiper__button">
+              <button>제로웨이스트 참가</button>
+              <button>자세히 보기</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/banners/banner4.png">
+            <div class="swiper__button">
+              <button>환경의 날</button>
+              <button>참가하기</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+      <div class="log_bar">
+        <span class="login_text" style="font-family: 'NanumSquareRound'"
+          >로그인 하시고 "GREENY"와 함께 의미있고 가치있는 활동 하고 리워드 받아보세요!
+        </span>
+        <span class="login_text2"><a href="/signin/">로그인</a></span>
+        <span class="login_text2"><a href="javascript:void(0)"></a>회원가입</a></span>
+      </div>
+
+    </section>
+
+    <div class="tap_service">
+      <div class="tap"><span>이벤트 정보</span></div>
+      <div class="tap"><span>멤버스 및 활동 관리</span></div>
+    </div>
+
+    <div class="section_1">
+      <h2 style="font-family: 'NanumSquareRound'">이달의 챌린지 및 이벤트</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <ul>
+              <li class="list_card">
+                <h4 class="list_title">아반떼</h4>
+                <img src="/images/line_up/all-new-avante-45side.png">
+                <div class="list_contents">최대 75만 할인</div>
+                <div class="list_sub">Save Auto 30만</div>
+                <div class="list_button">
+                  <button>혜택 보기</button>
+                  <button>구매 상담 신청</button>
+                </div>
+              </li>
+              <li class="list_card">
+                <h4 class="list_title">아반떼 Hybrid</h4>
+                <img src="./images/line_up/avante-hybrid-45side.png">
+                <div class="list_contents">최대 75만 할인</div>
+                <div class="list_sub">Save Auto 30만</div>
+                <div class="list_button">
+                  <button>혜택 보기</button>
+                  <button>구매 상담 신청</button>
+                </div>
+              </li>
+              <li class="list_card">
+                <h4 class="list_title">쏘나타</h4>
+                <img src="./images/line_up/sonata-21my-45side.png">
+                <div class="list_contents">최대 190만 할인</div>
+                <div class="list_sub">Save Auto 30만</div>
+                <div class="list_button">
+                  <button>혜택 보기</button>
+                  <button>구매 상담 신청</button>
+                </div>
+              </li>
+              <li class="list_card">
+                <h4 class="list_title">쏘나타 Hybrid</h4>
+                <img src="./images/line_up/sonata-hybrid-21my-45side.png">
+                <div class="list_contents">최대 90만 할인</div>
+                <div class="list_sub">Save Auto 30만</div>
+                <div class="list_button">
+                  <button>혜택 보기</button>
+                  <button>구매 상담 신청</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="swiper-slide">
+            <ul>
+              <li class="list_card">
+                <h4 class="list_title">그랜저</h4>
+                <img src="/images/line_up/grandeur-21my-45side.png">
+                <div class="list_contents">최대 210만 할인</div>
+                <div class="list_sub">Save Auto 30만/50만</div>
+                <div class="list_button">
+                  <button>혜택 보기</button>
+                  <button>구매 상담 신청</button>
+                </div>
+              </li>
+              <li class="list_card">
+                <h4 class="list_title">베뉴</h4>
+                <img src="./images/line_up/venue-21my-45side.png">
+                <div class="list_contents">최대 75만 할인</div>
+                <div class="list_sub">Save Auto 30만</div>
+                <div class="list_button">
+                  <button>혜택 보기</button>
+                  <button>구매 상담 신청</button>
+                </div>
+              </li>
+              <li class="list_card">
+                <h4 class="list_title">코나</h4>
+                <img src="./images/line_up/kona-20pe-45side.png">
+                <div class="list_contents">최대 155만 할인</div>
+                <div class="list_sub">Save Auto 30만</div>
+                <div class="list_button">
+                  <button>혜택 보기</button>
+                  <button>구매 상담 신청</button>
+                </div>
+              </li>
+              <li class="list_card">
+                <h4 class="list_title">코나 Hybrid</h4>
+                <img src="./images/line_up/kona-hybrid-20pe-45side.png">
+                <div class="list_contents">최대 75만 할인</div>
+                <div class="list_sub">Save Auto 30만</div>
+                <div class="list_button">
+                  <button>혜택 보기</button>
+                  <button>구매 상담 신청</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="swiper-slide">
+            <ul>
+              <li class="list_card">
+                <h4 class="list_title">투싼</h4>
+                <img src="/images/line_up/the-all-new-tucson-45side.png">
+                <div class="list_contents">최대 90만 할인</div>
+                <div class="list_sub">Save Auto 30만</div>
+                <div class="list_button">
+                  <button>혜택 보기</button>
+                  <button>구매 상담 신청</button>
+                </div>
+              </li>
+              <li class="list_card">
+                <h4 class="list_title">투싼 Hybrid</h4>
+                <img src="./images/line_up/the-all-new-tucson-hybrid-45side.png">
+                <div class="list_contents">최대 90만 할인</div>
+                <div class="list_sub">Save Auto 30만</div>
+                <div class="list_button">
+                  <button>혜택 보기</button>
+                  <button>구매 상담 신청</button>
+                </div>
+              </li>
+              <li class="list_card">
+                <h4 class="list_title">싼타페</h4>
+                <img src="./images/line_up/the-new-santafe-45side.png">
+                <div class="list_contents">최대 190만 할인</div>
+                <div class="list_sub">Save Auto 30만</div>
+                <div class="list_button">
+                  <button>혜택 보기</button>
+                  <button>구매 상담 신청</button>
+                </div>
+              </li>
+              <li class="list_card">
+                <h4 class="list_title">팰리세이드</h4>
+                <img src="./images/line_up/palisade-20my-45side.png">
+                <div class="list_contents">최대 110만 할인</div>
+                <div class="list_sub">Save Auto 30만</div>
+                <div class="list_button">
+                  <button>혜택 보기</button>
+                  <button>구매 상담 신청</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    </section>
+
+    <section class="section_2">
+      <div class="body_banner">
+        <button></button>
+      </div>
+    </section>
+
+    <section class="section_3">
+      <div class="event_container">
+        <h4 style="font-family: 'NanumSquareRound'">우리의 소식</h4>
+        <ul class="event_tag">
+          <a href="javascript:void(0)"><li style="font-family: 'NanumSquareRound'">#All</li></a>
+          <a href="javascript:void(0)"><li style="font-family: 'NanumSquareRound'">#ESG경영</li></a>
+          <a href="javascript:void(0)"><li style="font-family: 'NanumSquareRound'">#플로깅 챌린지</li></a>
+          <a href="javascript:void(0)"><li style="font-family: 'NanumSquareRound'">#ECO 챌린지</li></a>
+          <a href="javascript:void(0)"><li style="font-family: 'NanumSquareRound'">#제로웨이스트</li></a>
+          <a href="javascript:void(0)"><li style="font-family: 'NanumSquareRound'">#about_environment</li></a>
+          <a href="javascript:void(0)"><li style="font-family: 'NanumSquareRound'">#친환경</li></a>
+          <a href="javascript:void(0)"><li style="font-family: 'NanumSquareRound'">#GREENY</li></a>
+          <a href="javascript:void(0)"><li style="font-family: 'NanumSquareRound'">#그리니굿즈</li></a>
+        </ul>
+
+        <div class="sns_container">
+          <ul class="sns">
+            <li>
+              <a href="javascript:void(0)">
+                <img src="./images/sns/hqdefault.jpg" alt="sns">
+                <span class="main">SNS</span>
+                <div class="sns-hover"></div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <img src="./images/sns/hqdefault (1).jpg" alt="sns">
+                <span class="main">SNS</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <img src="./images/sns/hqdefault (2).jpg" alt="sns">
+                <span class="main">SNS</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <img src="./images/sns/hqdefault (3).jpg" alt="sns">
+                <span class="main">SNS</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <img src="./images/sns/hqdefault (4).jpg" alt="sns">
+                <span class="main">SNS</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <img src="./images/sns/hqdefault (5).jpg" alt="sns">
+                <span class="main">SNS</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <img src="./images/sns/hqdefault (6).jpg" alt="sns">
+                <span class="main">SNS</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <img src="./images/sns/hqdefault (7).jpg" alt="sns">
+                <span class="main">SNS</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+
+      <div class="inner-top">
+        <img src="./images/footer_logo/footer_logo2.png" alt="로고">
+        <ul>
+          <li>
+            <a href="javascript:void(0)"><span>GREENY</span></a>
+            <a href="javascript:void(0)"><span>저작권안내</span></a>
+            <a href="javascript:void(0)"><span style="color: white">개인정보 처리방침</span></a>
+            <a href="javascript:void(0)"><span>이용약관</span></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)"><span>동의대학교</span></a>
+            <a href="javascript:void(0)"><span>경영정보학과</span></a>
+            <a href="javascript:void(0)"><span>인간시스템디자인공학과</span></a>
+          </li>
+          <li>
+            <span>비즈니스 프로그래밍 :: 담당교수 - 황성원 (email: sense64@deu.ac.kr) </span>
+          </li>
+          <li>
+            <span>COPYRIGHT ⓒ GREENY. ALL RIGHTS RESERVED.</span>
+          </li>
+        </ul>
+        <div class="footer-social">
+          <div class="icon">
+            <a href="javascript:void(0)"></a>
+            <a href="javascript:void(0)"></a>
+            <a href="javascript:void(0)"></a>
+            <a href="javascript:void(0)"></a>
+            <a href="javascript:void(0)"></a>
+          </div>
+          <select>
+            <option value="팀 네임">2조 : GREENY</option>
+            <option value="팀원">(팀장)20182034 김성주</option>
+            <option value="팀원">20172026 이준성</option>
+            <option value="팀원">20171166 박승범</option>
+            <option value="팀원">20201191 김가현</option>
+            <option value="팀원">20201165 이현수</option>
+            <!--<option value="글로벌경영연구소">글로벌경영연구소</option>
+            <option value="전북 현대모터스 축구단">전북 현대모터스 축구단</option>
+            <option value="고객소통채널 H-ear">고객소통채널 H-ear</option>
+            <option value="현대 드라이빙 아카데미">현대 드라이빙 아카데미</option>
+            <option value="N 브랜드">N 브랜드</option>-->
+          </select>
+        </div>
+      </div>
+
+      <div class="inner-bottom">
+        <ul>
+          <li>
+            <img src="./images/footer_logo/footer-mark-wa.png" alt="로고">
+            <span>웹 접근성 품질인정</span>
+          </li>
+          <li>
+            <img src="./images/footer_logo/footer-mark01.png" alt="로고">
+            <span>우수디자인 경정경제부선정</span>
+          </li>
+          <li>
+            <img src="./images/footer_logo/footer-mark03.png" alt="로고">
+            <span>가족,환경 친화 우수기관</span>
+          </li>
+          <li>
+            <img src="./images/footer_logo/footer-mark04.png" alt="로고">
+            <span>2022년 경정서비스품질지수 (KS-SQI) 사회환경, 경제 부문 5년 연속 1위</span>
+          </li>
+          <li>
+            <img src="./images/footer_logo/footer-mark05.png" alt="로고">
+            <span>2022년 경정품질만족지수 (KS-QEI) 조사 10개 부문 1위 (비즈니스, 친환경, 사회복지 전 부문)</span>
+          </li>
+          <li>
+            <img src="./images/footer_logo/footer-mark06.png" alt="로고">
+            <span>2022년 동의고객만족도 (DCSI) 비즈니스부문 최초 조사대상 전부문 1위 수상 </span>
+          </li>
+          <li>
+            <img src="./images/footer_logo/footer-mark07.png" alt="로고">
+            <span>2022년 동의산업의 고객만족도 (DCSI) 환경친화, 비즈니스 부문 1위 (사화문제 비즈니스화)</span>
+          </li>
+        </ul>
+      </div>
+
+    </footer>
+  </body>
+</html>
