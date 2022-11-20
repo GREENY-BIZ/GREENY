@@ -49,6 +49,23 @@
     <script defer src="./js/main.js"></script>
     <script defer src="./js/body.js"></script>
     <script>
+
+      function goAdd() {
+        dataLayer.push ({
+          'event' : 'goAdd',
+          'vargo' : 'voulnteer'  
+        });
+        alert("이벤트 준비 중 입니다.");
+      }
+
+      function glassAdd() {
+        dataLayer.push ({
+          'event' : 'glassAdd',
+          'varglass' : 'glass'  
+        });
+        alert("이벤트 준비 중 입니다.");
+      }      
+
       function inAdd() {
         dataLayer.push ({
           'event' : 'inAdd',
@@ -173,8 +190,8 @@
                 <div class="list_contents">이달의 관심 챌린지 1위</div>
                 <div class="list_sub">분리수거 캠페인</div>
                 <div class="list_button">
-                  <button>참여하기</button>
-                  <button>자세히 보기</button>
+                  <button value="시작" class="go" onclick="goAdd();">참여하기</button>
+                  <button value="자세히2" class="glass" onclick="glassAdd();">자세히 보기</button>
                 </div>
               </li>
               <li class="list_card">
@@ -183,8 +200,8 @@
                 <div class="list_contents">이달의 관심 챌린지 2위</div>
                 <div class="list_sub">제로웨이스트 챌린지</div>
                 <div class="list_button">
-                  <button>참여하기</button>
-                  <button>자세히 보기</button>
+                  <button value="시작" class="go" onclick="goAdd();">참여하기</button>
+                  <button value="자세히2" class="glass" onclick="glassAdd();">자세히 보기</button>
                 </div>
               </li>
               <li class="list_card">
@@ -193,8 +210,8 @@
                 <div class="list_contents">이달의 관심 챌린지 3위</div>
                 <div class="list_sub">줍깅 플로깅 챌린지</div>
                 <div class="list_button">
-                  <button>참여하기</button>
-                  <button>자세히 보기</button>
+                  <button value="시작" class="go" onclick="goAdd();">참여하기</button>
+                  <button value="자세히2" class="glass" onclick="glassAdd();">자세히 보기</button>
                 </div>
               </li>
                 <li class="list_card">
@@ -203,8 +220,8 @@
                 <div class="list_contents">이달의 관심 챌린지 4위</div>
                 <div class="list_sub">친환경 운전 캠페인</div>
                 <div class="list_button">
-                  <button>참여하기</button>
-                  <button>자세히 보기</button>
+                  <button value="시작" class="go" onclick="goAdd();">참여하기</button>
+                  <button value="자세히2" class="glass" onclick="glassAdd();">자세히 보기</button>
                 </div>
             </ul>
           </div>
