@@ -41,6 +41,31 @@
     <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script defer src="./js/main.js"></script>
     <script defer src="./js/body.js"></script>
+    <script>
+      function buyAdd() {
+        dataLayer.push ({
+          'event' : 'buyAdd',
+          'varbuy' : 'goods'  
+        });
+        alert("이벤트 준비 중 입니다.");
+      }
+
+      function mostAdd() {
+        dataLayer.push ({
+          'event' : 'mostAdd',
+          'varmost' : 'goods'  
+        });
+        alert("이벤트 준비 중 입니다.");
+      }
+
+      function goodsAdd() {
+        dataLayer.push ({
+          'event' : 'goodsAdd',
+          'vargoods' : 'goods'  
+        });
+        alert("상품 준비 중 입니다.");
+      }
+    </script>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -89,22 +114,22 @@
             <div class="swiper-slide">
               <img src="./images/goods/goods1.png"/>
               <div class="swiper__button">
-                <button>구매하기</button>
-                <button>자세히 보기</button>
+                <button value="구매하기" class="buy" onclick="buyAdd();">구매하기</button>
+                <button value="더보기" class="most" onclick="mostAdd();">자세히 보기</button>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="./images/goods/goods2.png"/>
               <div class="swiper__button">
-                <button>구매하기</button>
-                <button>자세히 보기</button>
+                <button value="구매하기" class="buy" onclick="buyAdd();">구매하기</button>
+                <button value="더보기" class="most" onclick="mostAdd();">자세히 보기</button>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="./images/goods/goods3.png">
               <div class="swiper__button">
-                <button>구매하기</button>
-                <button>자세히 보기</button>
+                <button value="구매하기" class="buy" onclick="buyAdd();">구매하기</button>
+                <button value="더보기" class="most" onclick="mostAdd();">자세히 보기</button>
               </div>
             </div>
           </div>
@@ -141,74 +166,74 @@
             <ul class="sns">
               <li>
                 <a href="javascript:void(0)">
-                  <img src="./mockup/가죽키링-목업.png" alt="sns">
+                  <img src="./mockup/가죽키링-목업.png" alt="sns" value="구매" class="goods" onclick="goodsAdd();">
                   <span class="main">그리니 가죽키링</span>
                   <div class="sns-hover"></div>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <img src="./mockup/마스크-목업.png" alt="sns">
+                  <img src="./mockup/마스크-목업.png" alt="sns" value="구매" class="goods" onclick="goodsAdd();">
                   <span class="main">그리니 마스크</span>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <img src="./mockup/머그컵-목업.png" alt="sns">
+                  <img src="./mockup/머그컵-목업.png" alt="sns" value="구매" class="goods" onclick="goodsAdd();">
                   <span class="main">그리니 머그컵</span>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <img src="./mockup/모자-목업.png" alt="sns">
+                  <img src="./mockup/모자-목업.png" alt="sns" value="구매" class="goods" onclick="goodsAdd();">
                   <span class="main">그리니 캡모자</span>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <img src="./mockup/밥그릇-목업.png" alt="sns">
+                  <img src="./mockup/밥그릇-목업.png" alt="sns" value="구매" class="goods" onclick="goodsAdd();">
                   <span class="main">그리니 그릇</span>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <img src="./mockup/벳지-목업.png" alt="sns">
+                  <img src="./mockup/벳지-목업.png" alt="sns" value="구매" class="goods" onclick="goodsAdd();">
                   <span class="main">그리니 벳지</span>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <img src="./mockup/손목밴드-목업.png" alt="sns">
+                  <img src="./mockup/손목밴드-목업.png" alt="sns" value="구매" class="goods" onclick="goodsAdd();">
                   <span class="main">그리니 손목밴드</span>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <img src="./mockup/에코백-목업.png" alt="sns">
+                  <img src="./mockup/에코백-목업.png" alt="sns" value="구매" class="goods" onclick="goodsAdd();">
                   <span class="main">그리니 에코백</span>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <img src="./mockup/우산-목업.png" alt="sns">
+                  <img src="./mockup/우산-목업.png" alt="sns" value="구매" class="goods" onclick="goodsAdd();">
                   <span class="main">그리니 우산</span>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <img src="./mockup/카펫-목업.png" alt="sns">
+                  <img src="./mockup/카펫-목업.png" alt="sns" value="구매" class="goods" onclick="goodsAdd();">
                   <span class="main">그리니 카페트</span>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <img src="./mockup/텀블러-목업.png" alt="sns">
+                  <img src="./mockup/텀블러-목업.png" alt="sns" value="구매" class="goods" onclick="goodsAdd();">
                   <span class="main">그리니 텀블러</span>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <img src="./mockup/티셔츠-목업.png" alt="sns">
+                  <img src="./mockup/티셔츠-목업.png" alt="sns" value="구매" class="goods" onclick="goodsAdd();">
                   <span class="main">그리니 티셔츠</span>
                 </a>
               </li>
